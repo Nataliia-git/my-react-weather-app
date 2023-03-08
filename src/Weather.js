@@ -1,4 +1,3 @@
-import { Button } from "bootstrap";
 import React, { useState } from "react";
 import axios from "axios";
 import WeatherInfo from "./WeatherInfo";
@@ -15,7 +14,6 @@ export default function Weather(props) {
       temperature: response.data.temperature.current,
       wind: response.data.wind.speed,
       humidity: response.data.temperature.humidity,
-      icon: response.data.condition.icon_url,
       description: response.data.condition.description,
       icon: response.data.condition.icon,
       date: new Date(response.data.time * 1000),
