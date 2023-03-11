@@ -1,16 +1,36 @@
 .Weather {
-  border: 1px solid #dadde1;
-  border-radius: 5px;
   font-family: arial, sans-serif;
-  padding: 30px;
-  color: rgb(135, 135, 135);
+  color: rgb(12, 107, 248);
+}
+
+.Weather form {
+  margin-bottom: 50px;
+}
+
+.Weather .form-control {
+  padding: 15px 20px;
+  font-size: 16px;
+  height: 50px;
+  font-weight: 500;
+}
+.Weather .form-control::placeholder {
+  color: rgb(12, 107, 248);
+  line-height: 20px;
+  height: 50px;
+}
+.Weather .btn {
+  font-size: 16px;
+  padding: 15px 0px;
+  height: 50px;
 }
 
 .Weather h1 {
-  font-size: 24px;
+  font-size: 38px;
   font-weight: 700;
-  margin: 20px 0 0 0;
+  margin: 0;
+  margin-bottom: 20px;
   line-height: 29px;
+  text-shadow: 10ch;
 }
 
 .Weather ul {
@@ -31,18 +51,23 @@
 
 .Weather .temperature {
   font-weight: bold;
-  color: rgb(33, 33, 33);
+  color: rgb(12, 107, 248);
   font-size: 64px;
   line-height: 64px;
   font-weight: 400;
   margin-left: 10px;
+  font-size: 80px;
 }
 
 .Weather .unit {
   color: rgb(33, 33, 33);
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
   position: relative;
   line-height: 1;
-  top: -34px;
+  top: -38px;
+}
+.Weather .humidity-wind-value {
+  color: goldenrod;
+  font-weight: 700;
 }

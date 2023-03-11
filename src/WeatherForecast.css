@@ -6,3 +6,11 @@
   opacity: 0.6;
   margin-left: 5px;
 }
+
+.WeatherForecast .col {
+  border: 1px solid goldenrod;
+  margin: 5px;
+  border-radius: 16px;
+  box-shadow: 0 10px 15px rgba(218, 165, 32, 0.4);
+  padding: 10px 0;
+}
