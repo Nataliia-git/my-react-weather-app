@@ -4,7 +4,7 @@
 }
 
 .Weather form {
-  margin-bottom: 50px;
+  margin-bottom: 60px;
 }
 
 .Weather .form-control {
@@ -25,7 +25,7 @@
 }
 
 .Weather h1 {
-  font-size: 38px;
+  font-size: 44px;
   font-weight: 700;
   margin: 0;
   margin-bottom: 20px;
@@ -46,11 +46,11 @@
 }
 
 .Weather canvas {
-  margin: 5px auto;
+  margin: 1px auto;
 }
 
 .Weather .temperature {
-  font-weight: bold;
+  font-weight: 900;
   color: rgb(12, 107, 248);
   font-size: 64px;
   line-height: 64px;
@@ -67,7 +67,26 @@
   line-height: 1;
   top: -38px;
 }
+.Weather a {
+  transition: all 200ms ease-in-out;
+}
+.Weather a:hover {
+  color: goldenrod;
+  font-size: 26px;
+}
 .Weather .humidity-wind-value {
   color: goldenrod;
   font-weight: 700;
+  line-height: 1.5;
+}
+
+@media (max-width: 767px) {
+  .Weather {
+    text-align: center;
+  }
+  .Weather .icon-temperature {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
 }
